@@ -1,0 +1,141 @@
+.modal-backdrop.show {
+  background: white;
+}
+.modal-content {
+  width: 500px !important;
+}
+.main-post-area {
+  .post-logo {
+    img {
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  .post-right {
+    .name {
+      font-size: 14px;
+      font-weight: 700;
+      font-family: sans-serif;
+    }
+    .icon-1 {
+      margin-right: 5px;
+      margin-bottom: 3px;
+    }
+    .icon-2 {
+      background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/o2KCW4cFG6l.png");
+      background-position: 0px -936px;
+      background-size: auto;
+      width: 12px;
+      height: 12px;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .post-method {
+      margin-right: 2px;
+      font-size: 13px;
+      font-family: sans-serif;
+    }
+  }
+  .text-icon {
+    align-items: center;
+  }
+}
+.text-icon {
+  background-color: #cccc;
+  padding: 0px 5px;
+  border-radius: 5px;
+  height: 21px;
+}
+.text-area {
+  margin-top: 30px;
+  .text-content {
+    position: relative;
+    .text {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      border: none;
+      font-size: 23px;
+    }
+    .place-text {
+      position: absolute;
+      top: -8px;
+      left: 2px;
+      font-size: 26px;
+      font-weight: 300;
+      color: #716a6acc;
+      font-family: system-ui;
+      cursor: crosshair;
+      opacity: 0.3;
+    }
+  }
+}
+.icon-area {
+  .bottom-icon-1 {
+    img {
+      height: 40px;
+      width: 40px;
+      cursor: pointer;
+    }
+  }
+  .bottom-icon-2 {
+    height: 24px;
+    width: 24px;
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/OMcWvih2NFT.png");
+    background-position: 0px -62px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+  }
+}
+.footer-content {
+  border: 1px solid #ced0d4;
+  border-radius: 7px;
+  padding: 10px 12px;
+  .post-input {
+    display: block;
+    input {
+      border: none;
+      outline: none;
+      color: black;
+      font-weight: 700;
+      text-align: center;
+      width: 70%;
+      margin-top: 5px;
+    }
+  }
+  .post-modul {
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        img {
+          padding: 5px;
+          border-radius: 50%;
+        }
+        img:hover {
+          background-color: #b9b5b5cc;
+        }
+      }
+    }
+  }
+  .dot-icon {
+    height: 24px;
+    width: 24px;
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/6lkWl0BZTu-.png");
+    background-position: 0px -37px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 50%;
+    padding: 13px;
+  }
+  .dot-icon:hover {
+    background-color: #b9b5b5cc;
+  }
+}
+button.btn.btn-primary.d-block {
+  width: 100%;
+}
